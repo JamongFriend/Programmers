@@ -34,10 +34,6 @@ class Solution {
             }
         }
 
-        if(ctP == ctY){
-            return true;
-        }
-        else
-            return false;
+       return ctP == ctY;
     }
 }
